@@ -1,6 +1,6 @@
 .menu-content{
 
-    position: fixed;
+   position: fixed;
    width: 100vw;
    height: 7%;
    background-color: transparent;
@@ -13,7 +13,7 @@
 	height: 100%;
 	top: 0;
 	right: 0;
-	margin-right: 20px;
+	margin-right: 200px;
 	
 	/*Establecemos la imagen de fondo que es un color degradado*/
 	/*background-image: linear-gradient(135deg,#667eea 0,#764ba2 100%);*/
@@ -28,13 +28,19 @@
     
 }
 .menu-nav a{
-	color: #000;
+	color: #fff;
 	text-decoration: none;
-	font-size: 20px; 
+	font-size: 30px;
+	font-weight: bold;
+	 
     
 }
 .menu-nav a:hover{
-	font-weight: 400;
-	color: #fff;
+	
+	color: #be03fc;
 
+}
+.logo-img{
+	width: 160px;
+	height: 70px;
 }

@@ -1,14 +1,14 @@
 import React from "react";
-import Facebook  from '../../assets/icons/facebook.png';
-import Instagram  from '../../assets/icons/instagram.png';
-import Twitter  from '../../assets/icons/twitter.png';
-import Linkedin from '../../assets/icons/linkedin.png';
+import Facebook  from '../../assets/icons/fb.png';
+import Instagram  from '../../assets/icons/ig.png';
+import Twitter  from '../../assets/icons/tw.png';
+import Linkedin from '../../assets/icons/li.png';
 import './MediaButtons.css';
 
 function MediaButtons() {
 
     return(
-        <div>
+       
             
             <ul className="ul">
   <li className="li">
@@ -48,7 +48,7 @@ function MediaButtons() {
     </a>
   </li>
 </ul>
-        </div>
+        
 
     )
     

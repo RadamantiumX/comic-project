@@ -1,12 +1,76 @@
 .header{
-    height: 70vh;
-    background-image: linear-gradient(to top, rgba(161, 140, 209, 0.404) 0%, rgba(251, 193, 234, 0.404) 100%), url('../../assets/img/miles_morales.jpeg');
+    height: 80vh;
+    background-image: linear-gradient(to top, rgba(47, 42, 48, 0.404) 0%, rgba(98, 94, 99, 0.404) 100%), url('../../assets/img/miles_morales.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    opacity: 0.80;
+    backface-visibility: hidden;
+    
+    
+
+
 }
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	/*Ocultamos el contenido sobresaliente del elemento*/
+	overflow: hidden;
+	margin: auto;
+	/*Arriba/abajo y los costados*/
+	padding: 60px 0;
+	
+}
+.head{
+	padding: 0;
+	/*Ocupamos toda la altura*/
+	height: 100%;
+	/*Acomodamos los elementos*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/*Columnas de elementos (No uno al lado de otro)*/
+	flex-direction: column;
+
+	color: #fff;
+	text-align: center;
+}
+
 .titulo-principal{
     display: none;
 }
+
+
+/*Boton*/
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    width: 240px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(145, 105, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
