@@ -5,11 +5,13 @@ import './MidSection.css';
 function MidSection() {
 
     return(
-        <div className="mid-section">
-            <div className="contenedor">
-              <img src={Mid} alt="Mid-Image" className="img-mid"/>
-           </div>
-        </div>
+
+        <h1></h1>
+        // <div className="mid-section">
+        //     <div className="contenedor">
+        //       <img src={Mid} alt="Mid-Image" className="img-mid"/>
+        //    </div>
+        // </div>
         
     )
     

@@ -1,9 +1,10 @@
 import React from "react";
 
-import Header from "../Header/Header";
+
 import About from "../About/About";
-import MidSection from "../MidSection/MidSection";
 import Event from "../Events/Event";
+import Galery from "../Galery/Galery";
+
 
 
 
@@ -12,10 +13,9 @@ function Home(){
 
     return(
         <>
-        <Header/>
-        <MidSection/>
-        <Event/>
         <About/>
+        <Galery/>
+        <Event/>
         
         </>
     )
